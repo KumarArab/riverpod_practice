@@ -35,7 +35,7 @@ class FutureProviderExample extends ConsumerWidget {
     final currentCityWeather = ref.watch(weatherProvider);
     return Scaffold(
       appBar: AppBar(
-        title: Text("Riverpod Practice"),
+        title: Text("Futurepovider"),
       ),
       body: Column(
         children: [

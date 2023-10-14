@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_practice/examples/future_provider_example.dart';
+import 'package:riverpod_practice/examples/examples.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.dark,
-      home: const FutureProviderExample(),
+      home: const Complexity0ProviderExample(),
     );
   }
 }
